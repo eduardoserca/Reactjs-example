@@ -34,7 +34,6 @@ const Login = () => {
 
     const handleLogin = (e) => {
         e.preventDefault();
-        console.log("email: " + email + " password: "+ password);
         dispatch(startLoginEmailPassword(email, password));
     }
 
